@@ -16,6 +16,8 @@ pub struct Settings {
     pub subscribed_relays: Vec<String>,
     pub proving_req_sub_id: String,
     pub proving_resp_sub_id: String,
+    pub proving_resp_job_request_id:String,
+    pub proving_resp_job_result_id:String,
     pub user_bech32_sk: String,
     pub prover_agent_sk: String,
 }
