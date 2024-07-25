@@ -1,6 +1,6 @@
-use askeladd_core::config::Settings;
-use askeladd_core::prover_service::ProverService;
-use askeladd_core::types::FibonnacciProvingRequest;
+use askeladd::config::Settings;
+use askeladd::prover_service::ProverService;
+use askeladd::types::FibonnacciProvingRequest;
 use dotenv::dotenv;
 use nostr_sdk::prelude::*;
 

@@ -1,4 +1,4 @@
-use askeladd_core::config::Settings;
+use askeladd::config::Settings;
 use dotenv::dotenv;
 use nostr_sdk::prelude::*;
 use tokio::time::{sleep, Duration};

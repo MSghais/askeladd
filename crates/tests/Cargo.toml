@@ -1,5 +1,5 @@
 [package]
-name = "askeladd-marketplace"
+name = "tests"
 version.workspace = true
 edition.workspace = true
 
@@ -19,12 +19,9 @@ dotenv = "0.15"
 stwo-prover.workspace = true
 
 [[bin]]
-name = "marketplace"
-path = "src/cli_marketplace.rs"
+name = "tests"
+path = "/src/lib.rs"
 
-[[bin]]
-name = "prover_marketplace"
-path = "src/prover_marketplace.rs"
 
 [dev-dependencies]
 tokio = { workspace = true, features = ["macros"] }

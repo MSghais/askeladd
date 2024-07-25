@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
-use askeladd_core::config::Settings;
-use askeladd_core::types::{FibonnacciProvingRequest, FibonnacciProvingResponse};
-use askeladd_core::verifier_service::VerifierService;
+use askeladd::config::Settings;
+use askeladd::types::{FibonnacciProvingRequest, FibonnacciProvingResponse};
+use askeladd::verifier_service::VerifierService;
 use dotenv::dotenv;
 use nostr_sdk::prelude::*;
 use tokio::time::{sleep, Duration};
